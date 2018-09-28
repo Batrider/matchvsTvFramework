@@ -19,6 +19,7 @@ cc.Class({
     onLoad() {
         Game.UIManager = this;
         Game.UIManager.nowUIName = null;
+        uiFunc.openUI("uiLogin");
     },
 
     openUI(uiName, callBack) {
@@ -44,7 +45,7 @@ cc.Class({
 
             var reg = /<(.*)>/ig;
             var componentNames = target.name.match(reg);
-            if(componentNames.length > 0) {
+            if (componentNames.length > 0) {
                 clickEventHandler.component = componentNames[0].substring(1, componentNames[0].length - 1);
                 clickEventHandler.handler = functionName;
                 btn.clickEvents.push(clickEventHandler);

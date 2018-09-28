@@ -21,7 +21,8 @@ cc.Class({
         this.rival.setData(GLB.playerUserIds[1]);
         this.nodeDict["playerScore"].getComponent(cc.Label).string = Game.GameManager.selfScore;
         this.nodeDict["rivalScore"].getComponent(cc.Label).string = Game.GameManager.rivalScore;
-        this.nodeDict["quit"].on("click", this.quit, this);
+
+        Game.UIManager.btnMethodBind(this.nodeDict["quit"], "quit", this);
 
         var isWin = Game.GameManager.isRivalLeave ? true : Game.GameManager.selfScore >= Game.GameManager.rivalScore;
         if (isWin) {

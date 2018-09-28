@@ -7,6 +7,9 @@ cc.Class({
 
     onLoad: function() {
         this.nodeLink();
+        if (this.node.name === "uiGamePanel") {
+            return;
+        }
         this.componentLink();
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
 
