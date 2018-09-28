@@ -88,8 +88,14 @@ cc.Class({
             let curScrollOffset = this.componentDict[this.componentIndex].getScrollOffset();
             let maxScrollOffset = this.componentDict[this.componentIndex].getMaxScrollOffset();
             let targetOffsetY = curScrollOffset.y + 102 * delta;
-            if (targetOffsetY > maxScrollOffset.y || targetOffsetY < 0) {
-                this.componentIndex += delta;
+            if (Math.abs(curScrollOffset.y - maxScrollOffset.y) < 1 || Math.abs(curScrollOffset.y) < 1) {
+                let targetOffsetY = curScrollOffset.y + 102 * delta;
+                if (targetOffsetY > maxScrollOffset.y || targetOffsetY < 0) {
+                    this.componentIndex += delta;
+                } else {
+                    targetOffsetY = Math.min(Math.max(0, targetOffsetY), maxScrollOffset.y);
+                    this.componentDict[this.componentIndex].scrollToOffset(cc.v2(maxScrollOffset.x / 2, targetOffsetY), 0);
+                }
             } else {
                 targetOffsetY = Math.min(Math.max(0, targetOffsetY), maxScrollOffset.y);
                 this.componentDict[this.componentIndex].scrollToOffset(cc.v2(maxScrollOffset.x / 2, targetOffsetY), 0);
