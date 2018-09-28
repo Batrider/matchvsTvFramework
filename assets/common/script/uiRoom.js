@@ -82,9 +82,11 @@ cc.Class({
         for (var j = 0; j < this.players.length; j++) {
             if (this.players[j].userId === 0) {
                 this.players[j].setData(data.roomUserInfo.userId, this.ownerId);
+                Game.UIManager.btnMethodBind(this.players[j].kick, "kickPlayer", this.players[j]);
                 break;
             }
         }
+        this.resetComponentLink();
     },
 
     leaveRoomResponse: function(data) {
@@ -111,6 +113,7 @@ cc.Class({
         for (var i = 0; i < this.players.length; i++) {
             if (this.players[i].userId !== 0) {
                 this.players[i].setData(this.players[i].userId, this.ownerId);
+                Game.UIManager.btnMethodBind(this.players[i].kick, "kickPlayer", this.players[i]);
             }
         }
         this.refreshStartBtn();
@@ -130,9 +133,11 @@ cc.Class({
         for (var i = 0; i < this.players.length; i++) {
             if (this.players[i].userId !== 0) {
                 this.players[i].setData(this.players[i].userId, this.ownerId);
+                Game.UIManager.btnMethodBind(this.players[i].kick, "kickPlayer", this.players[i]);
             }
         }
         this.refreshStartBtn();
+        this.resetComponentLink();
     },
 
     refreshStartBtn() {
@@ -141,7 +146,7 @@ cc.Class({
         if (GLB.isRoomOwner) {
             spNode.color = cc.Color.WHITE;
             btn.enabled = true;
-        }else{
+        } else {
             spNode.color = cc.Color.BLACK;
             btn.enabled = false;
         }
@@ -213,8 +218,11 @@ cc.Class({
         this.ownerId = roomInfo.ownerId;
         for (var j = 0; j < roomUserInfoList.length; j++) {
             this.players[j].setData(roomUserInfoList[j].userId, this.ownerId);
+            Game.UIManager.btnMethodBind(this.players[j].kick, "kickPlayer", this.players[j]);
+
         }
         this.refreshStartBtn();
+        this.resetComponentLink();
     },
 
     onDestroy() {

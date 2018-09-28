@@ -48,6 +48,7 @@ cc.Class({
             room.parent = this.roomPrefab.parent;
             var roomScript = room.getComponent('roomInfo');
             roomScript.setData(data.rsp.roomAttrs[i]);
+            Game.UIManager.btnMethodBind(room, "joinRoom", roomScript);
 
             this.rooms.push(room);
         }

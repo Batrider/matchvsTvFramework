@@ -79,13 +79,13 @@
         "__uuid__": "5ee1dc4e-82bd-419a-885f-b6e989bfae88"
       },
       {
-        "__uuid__": "bc11d099-b78d-4c5a-9bb7-643ed8a487c4"
+        "__uuid__": "3713d408-abb4-4c6c-b264-4e3a22dfa7f7"
       },
       {
         "__uuid__": "1501ad1a-053b-49cf-964e-d1ed27642949"
       },
       {
-        "__uuid__": "cbc68f84-2be9-4225-aaf3-19131155efeb"
+        "__uuid__": "ccc8e51e-1f9f-4f43-8f05-e7d23e862db3"
       },
       {
         "__uuid__": "d730e538-0629-44a9-9799-145e4d3a39a3"
@@ -104,9 +104,17 @@
       },
       {
         "__uuid__": "b7001c12-97f6-41a6-acdd-9fa8ebba31c0"
+      }
+    ],
+    "playerIcons": [
+      {
+        "__uuid__": "689a10ef-d547-422d-a401-e1b1e31d9ce0"
       },
       {
-        "__uuid__": "ccc8e51e-1f9f-4f43-8f05-e7d23e862db3"
+        "__uuid__": "9772c6c8-9795-4d54-86ca-36114353740b"
+      },
+      {
+        "__uuid__": "8ad24718-30b2-4209-bc4b-4e3c13676b36"
       }
     ]
   },
@@ -116,7 +124,7 @@
       "__id__": 1
     },
     "asset": {
-      "__id__": 0
+      "__uuid__": "31e1144d-72ed-4f52-8481-b7c7f53ea35a"
     },
     "fileId": "dahMjDvlFOT4EEuWk2xp4d",
     "sync": false

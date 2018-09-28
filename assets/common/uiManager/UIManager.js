@@ -12,7 +12,8 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        commonUIPrefabs: [cc.Prefab]
+        commonUIPrefabs: [cc.Prefab],
+        playerIcons: [cc.SpriteFrame]
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -48,7 +49,7 @@ cc.Class({
             if (componentNames.length > 0) {
                 clickEventHandler.component = componentNames[0].substring(1, componentNames[0].length - 1);
                 clickEventHandler.handler = functionName;
-                btn.clickEvents.push(clickEventHandler);
+                btn.clickEvents = [clickEventHandler];
             }
         }
     }
