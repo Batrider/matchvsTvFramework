@@ -1,102 +1,171 @@
-2018-09-28T01:41:32.066Z - normal: Load ~/.CocosCreator/settings.json
-2018-09-28T01:41:32.070Z - normal: checking language setting...
-2018-09-28T01:41:32.070Z - normal: Language: zh
-2018-09-28T01:41:32.527Z - success: protocol editor-framework registered
-2018-09-28T01:41:32.527Z - success: protocol app registered
-2018-09-28T01:41:32.528Z - success: protocol theme registered
-2018-09-28T01:41:32.528Z - success: protocol packages registered
-2018-09-28T01:41:32.528Z - success: protocol unpack registerred
-2018-09-28T01:41:32.528Z - success: protocol disable-commonjs registerred
-2018-09-28T01:41:32.722Z - normal: connected!
-2018-09-28T01:41:32.724Z - normal: Check project /Users/mac/matchvsTvFramework
-2018-09-28T01:41:32.733Z - normal: Initializing Cocos2d
-2018-09-28T01:41:32.888Z - normal: Initializing Asset Database
-2018-09-28T01:41:32.907Z - success: protocol uuid registerred
-2018-09-28T01:41:32.907Z - success: protocol db registerred
-2018-09-28T01:41:32.907Z - success: protocol thumbnail registerred
-2018-09-28T01:41:32.907Z - normal: Loading editor/builtin packages
-2018-09-28T01:41:32.918Z - success: anysdk loaded
-2018-09-28T01:41:32.991Z - success: assets loaded
-2018-09-28T01:41:32.993Z - success: builder loaded
-2018-09-28T01:41:32.994Z - success: cocos-analytics loaded
-2018-09-28T01:41:32.996Z - success: console loaded
-2018-09-28T01:41:33.017Z - success: fb-instant-games loaded
-2018-09-28T01:41:33.020Z - success: hierarchy loaded
-2018-09-28T01:41:33.023Z - success: inspector loaded
-2018-09-28T01:41:33.024Z - success: keystore loaded
-2018-09-28T01:41:33.026Z - success: node-library loaded
-2018-09-28T01:41:33.027Z - success: package-asset loaded
-2018-09-28T01:41:33.028Z - success: preferences loaded
-2018-09-28T01:41:33.030Z - success: project-exporter loaded
-2018-09-28T01:41:33.040Z - success: project-importer loaded
-2018-09-28T01:41:33.041Z - success: project-settings loaded
-2018-09-28T01:41:33.046Z - success: ui-kit loaded
-2018-09-28T01:41:33.049Z - success: ui-grid loaded
-2018-09-28T01:41:33.052Z - success: scene loaded
-2018-09-28T01:41:33.053Z - success: sprite-editor loaded
-2018-09-28T01:41:33.055Z - success: store loaded
-2018-09-28T01:41:33.059Z - success: timeline loaded
-2018-09-28T01:41:33.059Z - normal: Loading builtin packages
-2018-09-28T01:41:33.062Z - success: asset-db-debugger loaded
-2018-09-28T01:41:33.063Z - success: color-picker loaded
-2018-09-28T01:41:33.066Z - success: package-manager loaded
-2018-09-28T01:41:33.067Z - success: qqplay-adapter loaded
-2018-09-28T01:41:33.071Z - success: sdkbox loaded
-2018-09-28T01:41:33.074Z - success: tester loaded
-2018-09-28T01:41:33.077Z - success: ui-kit-preview-extra loaded
-2018-09-28T01:41:33.079Z - success: ui-kit-preview loaded
-2018-09-28T01:41:33.082Z - success: ui-tree loaded
-2018-09-28T01:41:33.083Z - success: weapp-adapter loaded
-2018-09-28T01:41:33.683Z - normal: Initializing project /Users/mac/matchvsTvFramework
-2018-09-28T01:41:33.687Z - normal: Loading packages
-2018-09-28T01:41:33.696Z - success: plugin-matchvs loaded
-2018-09-28T01:41:33.698Z - error: Failed to add menu to 扩展,
-          a menu item 扩展/Matchvs you tried to add already exists
-    at Menu.add (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/main/menu.js:1:4608)
-    at Object.MainMenu.add (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/main/main-menu.js:1:4273)
-    at Async.series.a (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/main/package.js:1:2770)
-    at /Applications/CocosCreator 2.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:718:13
-    at Immediate.iterate (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:262:13)
-    at runCallback (timers.js:672:20)
-    at tryOnImmediate (timers.js:645:5)
-    at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-09-28T01:41:33.698Z - failed: Failed to load panel "panel" from "plugin-matchvs", the panelID plugin-matchvs already exists
-2018-09-28T01:41:33.698Z - failed: [db-task][mount] Exception  Error: Failed to mount /Users/mac/matchvsTvFramework/packages/plugin-matchvs/matchvs/matchvsjssdk to plugin-matchvs-js, already exists!
-    at s.ED.throw.AssetDB.throw (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:1275)
-    at _checkIfMountValid (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:328)
-    at s.Tasks.mount (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:10903)
-    at _tasks.n.queue (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/asset-db/index.js:1:1866)
-    at /Applications/CocosCreator 2.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:987:13
-    at Immediate.process (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:953:21)
-    at runCallback (timers.js:672:20)
-    at tryOnImmediate (timers.js:645:5)
-    at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-09-28T01:41:33.699Z - warn: Mount runtime resource failed. message: Error: Failed to mount /Users/mac/matchvsTvFramework/packages/plugin-matchvs/matchvs/matchvsjssdk to plugin-matchvs-js, already exists!
-    at s.ED.throw.AssetDB.throw (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/asset-db/lib/utils.js:1:1275)
-    at _checkIfMountValid (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:328)
-    at s.Tasks.mount (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:10903)
-    at _tasks.n.queue (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/asset-db/index.js:1:1866)
-    at /Applications/CocosCreator 2.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:987:13
-    at Immediate.process (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:953:21)
-    at runCallback (timers.js:672:20)
-    at tryOnImmediate (timers.js:645:5)
-    at processImmediate [as _immediateCallback] (timers.js:617:5)
-2018-09-28T01:41:33.699Z - success: plugin-matchvs loaded
-2018-09-28T01:41:33.699Z - normal: Watching packages
-2018-09-28T01:41:33.778Z - normal: Run Application
-2018-09-28T01:41:34.262Z - success: preview server running at http://localhost:7456
-2018-09-28T01:41:39.064Z - normal: 1.9.3
-2018-09-28T03:43:07.585Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:137867
-2018-09-28T03:43:07.586Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:137869
-2018-09-28T05:52:24.732Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:207786
-2018-09-28T05:52:24.735Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:207788
-2018-09-28T05:54:48.485Z - error: unknown color: 
-    at window.onerror (file:///Applications/CocosCreator%202.app/Contents/Resources/app.asar/editor/page/app-main.js:1:1560)
-    at Object.DomUtils.fire (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:2081)
-    at HTMLElement._onInputConfirm (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/input.js:1:2935)
-    at HTMLInputElement.e.addEventListener.t (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/behaviors/input-state.js:1:936)
-    at HTMLElement._showColorPicker (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/color.js:1:4288)
-    at HTMLElement._hideFn.e (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/color.js:1:2958)
-    at Object.DomUtils.fire (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/utils/dom-utils.js:1:2081)
-    at HTMLElement.hide (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/color-picker.js:1:3556)
-    at _showing.DomUtils.addHitGhost (/Applications/CocosCreator 2.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ui/elements/color.js:1:3805)
+2018-09-29T03:26:55.094Z - normal: Load ~/.CocosCreator/settings.json
+2018-09-29T03:26:55.098Z - normal: checking language setting...
+2018-09-29T03:26:55.098Z - normal: Language: zh
+2018-09-29T03:26:55.882Z - success: protocol editor-framework registered
+2018-09-29T03:26:55.882Z - success: protocol app registered
+2018-09-29T03:26:55.882Z - success: protocol theme registered
+2018-09-29T03:26:55.882Z - success: protocol packages registered
+2018-09-29T03:26:55.883Z - success: protocol unpack registerred
+2018-09-29T03:26:55.883Z - success: protocol disable-commonjs registerred
+2018-09-29T03:26:56.106Z - normal: connected!
+2018-09-29T03:26:56.114Z - normal: Check project /Users/mac/MatchVsIPTV/matchvsTvFramework
+2018-09-29T03:26:56.116Z - normal: Initializing Cocos2d
+2018-09-29T03:26:56.353Z - normal: Initializing Asset Database
+2018-09-29T03:26:56.389Z - success: protocol uuid registerred
+2018-09-29T03:26:56.390Z - success: protocol db registerred
+2018-09-29T03:26:56.390Z - success: protocol thumbnail registerred
+2018-09-29T03:26:56.390Z - normal: Loading editor/builtin packages
+2018-09-29T03:26:56.413Z - success: anysdk loaded
+2018-09-29T03:26:56.552Z - success: assets loaded
+2018-09-29T03:26:56.556Z - success: builder loaded
+2018-09-29T03:26:56.561Z - success: cocos-analytics loaded
+2018-09-29T03:26:56.566Z - success: console loaded
+2018-09-29T03:26:56.605Z - success: fb-instant-games loaded
+2018-09-29T03:26:56.612Z - success: hierarchy loaded
+2018-09-29T03:26:56.617Z - success: inspector loaded
+2018-09-29T03:26:56.618Z - success: keystore loaded
+2018-09-29T03:26:56.622Z - success: node-library loaded
+2018-09-29T03:26:56.624Z - success: package-asset loaded
+2018-09-29T03:26:56.629Z - success: preferences loaded
+2018-09-29T03:26:56.632Z - success: project-exporter loaded
+2018-09-29T03:26:56.651Z - success: project-importer loaded
+2018-09-29T03:26:56.654Z - success: project-settings loaded
+2018-09-29T03:26:56.661Z - success: ui-kit loaded
+2018-09-29T03:26:56.666Z - success: ui-grid loaded
+2018-09-29T03:26:56.671Z - success: scene loaded
+2018-09-29T03:26:56.672Z - success: sprite-editor loaded
+2018-09-29T03:26:56.679Z - success: store loaded
+2018-09-29T03:26:56.686Z - success: timeline loaded
+2018-09-29T03:26:56.686Z - normal: Loading builtin packages
+2018-09-29T03:26:56.691Z - success: asset-db-debugger loaded
+2018-09-29T03:26:56.692Z - success: color-picker loaded
+2018-09-29T03:26:56.698Z - success: package-manager loaded
+2018-09-29T03:26:56.700Z - success: qqplay-adapter loaded
+2018-09-29T03:26:56.779Z - success: sdkbox loaded
+2018-09-29T03:26:56.785Z - success: tester loaded
+2018-09-29T03:26:56.789Z - success: ui-kit-preview-extra loaded
+2018-09-29T03:26:56.796Z - success: ui-kit-preview loaded
+2018-09-29T03:26:56.800Z - success: ui-tree loaded
+2018-09-29T03:26:56.802Z - success: weapp-adapter loaded
+2018-09-29T03:26:57.804Z - normal: Initializing project /Users/mac/MatchVsIPTV/matchvsTvFramework
+2018-09-29T03:26:57.807Z - normal: Loading packages
+2018-09-29T03:26:57.820Z - success: plugin-matchvs loaded
+2018-09-29T03:26:57.820Z - normal: Watching packages
+2018-09-29T03:26:57.940Z - normal: Run Application
+2018-09-29T03:26:58.588Z - success: preview server running at http://localhost:7456
+2018-09-29T03:27:04.777Z - normal: 1.9.3
+2018-09-29T03:27:06.232Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:27:12.383Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:27:13.567Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:27:26.535Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:27:28.969Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:27:31.081Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:27:32.950Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:27:34.321Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:27:38.847Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:27:40.606Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:27:42.659Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:27:44.006Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:27:52.437Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:28:36.810Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:28:38.983Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:28:49.680Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:28:51.149Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:28:52.534Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:29:07.177Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:30:02.312Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:30:24.057Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:30:40.532Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
+2018-09-29T03:57:06.278Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
+Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
+Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
+
