@@ -1,171 +1,73 @@
-2018-09-29T03:26:55.094Z - normal: Load ~/.CocosCreator/settings.json
-2018-09-29T03:26:55.098Z - normal: checking language setting...
-2018-09-29T03:26:55.098Z - normal: Language: zh
-2018-09-29T03:26:55.882Z - success: protocol editor-framework registered
-2018-09-29T03:26:55.882Z - success: protocol app registered
-2018-09-29T03:26:55.882Z - success: protocol theme registered
-2018-09-29T03:26:55.882Z - success: protocol packages registered
-2018-09-29T03:26:55.883Z - success: protocol unpack registerred
-2018-09-29T03:26:55.883Z - success: protocol disable-commonjs registerred
-2018-09-29T03:26:56.106Z - normal: connected!
-2018-09-29T03:26:56.114Z - normal: Check project /Users/mac/MatchVsIPTV/matchvsTvFramework
-2018-09-29T03:26:56.116Z - normal: Initializing Cocos2d
-2018-09-29T03:26:56.353Z - normal: Initializing Asset Database
-2018-09-29T03:26:56.389Z - success: protocol uuid registerred
-2018-09-29T03:26:56.390Z - success: protocol db registerred
-2018-09-29T03:26:56.390Z - success: protocol thumbnail registerred
-2018-09-29T03:26:56.390Z - normal: Loading editor/builtin packages
-2018-09-29T03:26:56.413Z - success: anysdk loaded
-2018-09-29T03:26:56.552Z - success: assets loaded
-2018-09-29T03:26:56.556Z - success: builder loaded
-2018-09-29T03:26:56.561Z - success: cocos-analytics loaded
-2018-09-29T03:26:56.566Z - success: console loaded
-2018-09-29T03:26:56.605Z - success: fb-instant-games loaded
-2018-09-29T03:26:56.612Z - success: hierarchy loaded
-2018-09-29T03:26:56.617Z - success: inspector loaded
-2018-09-29T03:26:56.618Z - success: keystore loaded
-2018-09-29T03:26:56.622Z - success: node-library loaded
-2018-09-29T03:26:56.624Z - success: package-asset loaded
-2018-09-29T03:26:56.629Z - success: preferences loaded
-2018-09-29T03:26:56.632Z - success: project-exporter loaded
-2018-09-29T03:26:56.651Z - success: project-importer loaded
-2018-09-29T03:26:56.654Z - success: project-settings loaded
-2018-09-29T03:26:56.661Z - success: ui-kit loaded
-2018-09-29T03:26:56.666Z - success: ui-grid loaded
-2018-09-29T03:26:56.671Z - success: scene loaded
-2018-09-29T03:26:56.672Z - success: sprite-editor loaded
-2018-09-29T03:26:56.679Z - success: store loaded
-2018-09-29T03:26:56.686Z - success: timeline loaded
-2018-09-29T03:26:56.686Z - normal: Loading builtin packages
-2018-09-29T03:26:56.691Z - success: asset-db-debugger loaded
-2018-09-29T03:26:56.692Z - success: color-picker loaded
-2018-09-29T03:26:56.698Z - success: package-manager loaded
-2018-09-29T03:26:56.700Z - success: qqplay-adapter loaded
-2018-09-29T03:26:56.779Z - success: sdkbox loaded
-2018-09-29T03:26:56.785Z - success: tester loaded
-2018-09-29T03:26:56.789Z - success: ui-kit-preview-extra loaded
-2018-09-29T03:26:56.796Z - success: ui-kit-preview loaded
-2018-09-29T03:26:56.800Z - success: ui-tree loaded
-2018-09-29T03:26:56.802Z - success: weapp-adapter loaded
-2018-09-29T03:26:57.804Z - normal: Initializing project /Users/mac/MatchVsIPTV/matchvsTvFramework
-2018-09-29T03:26:57.807Z - normal: Loading packages
-2018-09-29T03:26:57.820Z - success: plugin-matchvs loaded
-2018-09-29T03:26:57.820Z - normal: Watching packages
-2018-09-29T03:26:57.940Z - normal: Run Application
-2018-09-29T03:26:58.588Z - success: preview server running at http://localhost:7456
-2018-09-29T03:27:04.777Z - normal: 1.9.3
-2018-09-29T03:27:06.232Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+2018-09-29T07:51:20.738Z - normal: Load ~/.CocosCreator/settings.json
+2018-09-29T07:51:20.743Z - normal: checking language setting...
+2018-09-29T07:51:20.744Z - normal: Language: zh
+2018-09-29T07:51:21.908Z - success: protocol editor-framework registered
+2018-09-29T07:51:21.909Z - success: protocol app registered
+2018-09-29T07:51:21.910Z - success: protocol theme registered
+2018-09-29T07:51:21.910Z - success: protocol packages registered
+2018-09-29T07:51:21.910Z - success: protocol unpack registerred
+2018-09-29T07:51:21.910Z - success: protocol disable-commonjs registerred
+2018-09-29T07:51:24.903Z - normal: failed to connect login server due to request timeout
+2018-09-29T07:51:24.904Z - normal: Check project /Users/mac/MatchVsIPTV/matchvsTvFramework
+2018-09-29T07:51:24.905Z - normal: Initializing Cocos2d
+2018-09-29T07:51:25.170Z - normal: Initializing Asset Database
+2018-09-29T07:51:25.212Z - success: protocol uuid registerred
+2018-09-29T07:51:25.212Z - success: protocol db registerred
+2018-09-29T07:51:25.212Z - success: protocol thumbnail registerred
+2018-09-29T07:51:25.212Z - normal: Loading editor/builtin packages
+2018-09-29T07:51:25.248Z - success: anysdk loaded
+2018-09-29T07:51:25.378Z - success: assets loaded
+2018-09-29T07:51:25.382Z - success: builder loaded
+2018-09-29T07:51:25.384Z - success: cocos-analytics loaded
+2018-09-29T07:51:25.389Z - success: console loaded
+2018-09-29T07:51:25.430Z - success: fb-instant-games loaded
+2018-09-29T07:51:25.435Z - success: hierarchy loaded
+2018-09-29T07:51:25.440Z - success: inspector loaded
+2018-09-29T07:51:25.444Z - success: keystore loaded
+2018-09-29T07:51:25.448Z - success: node-library loaded
+2018-09-29T07:51:25.451Z - success: package-asset loaded
+2018-09-29T07:51:25.452Z - success: preferences loaded
+2018-09-29T07:51:25.455Z - success: project-exporter loaded
+2018-09-29T07:51:25.477Z - success: project-importer loaded
+2018-09-29T07:51:25.480Z - success: project-settings loaded
+2018-09-29T07:51:25.486Z - success: ui-kit loaded
+2018-09-29T07:51:25.493Z - success: ui-grid loaded
+2018-09-29T07:51:25.498Z - success: scene loaded
+2018-09-29T07:51:25.499Z - success: sprite-editor loaded
+2018-09-29T07:51:25.504Z - success: store loaded
+2018-09-29T07:51:25.515Z - success: timeline loaded
+2018-09-29T07:51:25.515Z - normal: Loading builtin packages
+2018-09-29T07:51:25.521Z - success: asset-db-debugger loaded
+2018-09-29T07:51:25.522Z - success: color-picker loaded
+2018-09-29T07:51:25.528Z - success: package-manager loaded
+2018-09-29T07:51:25.529Z - success: qqplay-adapter loaded
+2018-09-29T07:51:25.610Z - success: sdkbox loaded
+2018-09-29T07:51:25.618Z - success: tester loaded
+2018-09-29T07:51:25.622Z - success: ui-kit-preview-extra loaded
+2018-09-29T07:51:25.630Z - success: ui-kit-preview loaded
+2018-09-29T07:51:25.634Z - success: ui-tree loaded
+2018-09-29T07:51:25.635Z - success: weapp-adapter loaded
+2018-09-29T07:51:26.932Z - normal: Initializing project /Users/mac/MatchVsIPTV/matchvsTvFramework
+2018-09-29T07:51:26.936Z - normal: Loading packages
+2018-09-29T07:51:26.951Z - success: plugin-matchvs loaded
+2018-09-29T07:51:26.952Z - normal: Watching packages
+2018-09-29T07:51:27.094Z - normal: Run Application
+2018-09-29T07:51:27.953Z - success: preview server running at http://localhost:7456
+2018-09-29T07:51:36.150Z - normal: 1.9.3
+2018-09-29T07:51:37.256Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
 Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
 Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
 Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
 
-2018-09-29T03:27:12.383Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+2018-09-29T07:52:41.464Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
 Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
 Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
 Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
 
-2018-09-29T03:27:13.567Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
+2018-09-29T07:52:47.092Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
 Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
 Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
 Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
 
-2018-09-29T03:27:26.535Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T03:27:28.969Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T03:27:31.081Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T03:27:32.950Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T03:27:34.321Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T03:27:38.847Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T03:27:40.606Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T03:27:42.659Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T03:27:44.006Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T03:27:52.437Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T03:28:36.810Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T03:28:38.983Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T03:28:49.680Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T03:28:51.149Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T03:28:52.534Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T03:29:07.177Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T03:30:02.312Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T03:30:24.057Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T03:30:40.532Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T03:57:06.278Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
+2018-09-29T08:17:51.671Z - failed: [db-task][import] Can not import file /Users/mac/MatchVsIPTV/matchvsTvFramework/assets/common/texture/head_1.png, already in the database
+2018-09-29T08:18:05.566Z - failed: [db-task][import] Can not import file /Users/mac/MatchVsIPTV/matchvsTvFramework/assets/common/texture/head_1.png, already in the database
