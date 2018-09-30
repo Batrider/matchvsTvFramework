@@ -46,8 +46,17 @@ cc.Class({
         clientEvent.on(clientEvent.eventType.gameOver, this.gameOver, this);
         clientEvent.on(clientEvent.eventType.score, this.scoreEvent, this);
         clientEvent.on(clientEvent.eventType.leaveRoomMedNotify, this.leaveRoom, this);
+        cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
 
         this.bgmId = cc.audioEngine.play(this.bgmAudio, true, 1);
+    },
+
+    onKeyDown: function(event) {
+        switch (event.keyCode) {
+            case 27:
+                this.exit();
+                break;
+        }
     },
 
     scoreEvent() {

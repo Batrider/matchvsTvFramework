@@ -1,73 +1,55 @@
-2018-09-29T07:51:20.738Z - normal: Load ~/.CocosCreator/settings.json
-2018-09-29T07:51:20.743Z - normal: checking language setting...
-2018-09-29T07:51:20.744Z - normal: Language: zh
-2018-09-29T07:51:21.908Z - success: protocol editor-framework registered
-2018-09-29T07:51:21.909Z - success: protocol app registered
-2018-09-29T07:51:21.910Z - success: protocol theme registered
-2018-09-29T07:51:21.910Z - success: protocol packages registered
-2018-09-29T07:51:21.910Z - success: protocol unpack registerred
-2018-09-29T07:51:21.910Z - success: protocol disable-commonjs registerred
-2018-09-29T07:51:24.903Z - normal: failed to connect login server due to request timeout
-2018-09-29T07:51:24.904Z - normal: Check project /Users/mac/MatchVsIPTV/matchvsTvFramework
-2018-09-29T07:51:24.905Z - normal: Initializing Cocos2d
-2018-09-29T07:51:25.170Z - normal: Initializing Asset Database
-2018-09-29T07:51:25.212Z - success: protocol uuid registerred
-2018-09-29T07:51:25.212Z - success: protocol db registerred
-2018-09-29T07:51:25.212Z - success: protocol thumbnail registerred
-2018-09-29T07:51:25.212Z - normal: Loading editor/builtin packages
-2018-09-29T07:51:25.248Z - success: anysdk loaded
-2018-09-29T07:51:25.378Z - success: assets loaded
-2018-09-29T07:51:25.382Z - success: builder loaded
-2018-09-29T07:51:25.384Z - success: cocos-analytics loaded
-2018-09-29T07:51:25.389Z - success: console loaded
-2018-09-29T07:51:25.430Z - success: fb-instant-games loaded
-2018-09-29T07:51:25.435Z - success: hierarchy loaded
-2018-09-29T07:51:25.440Z - success: inspector loaded
-2018-09-29T07:51:25.444Z - success: keystore loaded
-2018-09-29T07:51:25.448Z - success: node-library loaded
-2018-09-29T07:51:25.451Z - success: package-asset loaded
-2018-09-29T07:51:25.452Z - success: preferences loaded
-2018-09-29T07:51:25.455Z - success: project-exporter loaded
-2018-09-29T07:51:25.477Z - success: project-importer loaded
-2018-09-29T07:51:25.480Z - success: project-settings loaded
-2018-09-29T07:51:25.486Z - success: ui-kit loaded
-2018-09-29T07:51:25.493Z - success: ui-grid loaded
-2018-09-29T07:51:25.498Z - success: scene loaded
-2018-09-29T07:51:25.499Z - success: sprite-editor loaded
-2018-09-29T07:51:25.504Z - success: store loaded
-2018-09-29T07:51:25.515Z - success: timeline loaded
-2018-09-29T07:51:25.515Z - normal: Loading builtin packages
-2018-09-29T07:51:25.521Z - success: asset-db-debugger loaded
-2018-09-29T07:51:25.522Z - success: color-picker loaded
-2018-09-29T07:51:25.528Z - success: package-manager loaded
-2018-09-29T07:51:25.529Z - success: qqplay-adapter loaded
-2018-09-29T07:51:25.610Z - success: sdkbox loaded
-2018-09-29T07:51:25.618Z - success: tester loaded
-2018-09-29T07:51:25.622Z - success: ui-kit-preview-extra loaded
-2018-09-29T07:51:25.630Z - success: ui-kit-preview loaded
-2018-09-29T07:51:25.634Z - success: ui-tree loaded
-2018-09-29T07:51:25.635Z - success: weapp-adapter loaded
-2018-09-29T07:51:26.932Z - normal: Initializing project /Users/mac/MatchVsIPTV/matchvsTvFramework
-2018-09-29T07:51:26.936Z - normal: Loading packages
-2018-09-29T07:51:26.951Z - success: plugin-matchvs loaded
-2018-09-29T07:51:26.952Z - normal: Watching packages
-2018-09-29T07:51:27.094Z - normal: Run Application
-2018-09-29T07:51:27.953Z - success: preview server running at http://localhost:7456
-2018-09-29T07:51:36.150Z - normal: 1.9.3
-2018-09-29T07:51:37.256Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T07:52:41.464Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T07:52:47.092Z - warn: The Asset used by component "cc.Sprite" in prefab "uiRoomList.prefab" is missing. Detailed information:
-Node path: "uiRoomList/view/key_content/key_roomPrefab/bar-user3.1"
-Asset url: "db://assets/common/prefabs/uiRoomList.prefab"
-Missing uuid: "774e8183-080c-46b2-82d3-759acadd8703"
-
-2018-09-29T08:17:51.671Z - failed: [db-task][import] Can not import file /Users/mac/MatchVsIPTV/matchvsTvFramework/assets/common/texture/head_1.png, already in the database
-2018-09-29T08:18:05.566Z - failed: [db-task][import] Can not import file /Users/mac/MatchVsIPTV/matchvsTvFramework/assets/common/texture/head_1.png, already in the database
+2018-09-30T06:23:20.404Z - normal: Load ~/.CocosCreator/settings.json
+2018-09-30T06:23:20.408Z - normal: checking language setting...
+2018-09-30T06:23:20.408Z - normal: Language: zh
+2018-09-30T06:23:21.378Z - success: protocol editor-framework registered
+2018-09-30T06:23:21.379Z - success: protocol app registered
+2018-09-30T06:23:21.379Z - success: protocol theme registered
+2018-09-30T06:23:21.379Z - success: protocol packages registered
+2018-09-30T06:23:21.379Z - success: protocol unpack registerred
+2018-09-30T06:23:21.379Z - success: protocol disable-commonjs registerred
+2018-09-30T06:23:22.633Z - normal: connected!
+2018-09-30T06:23:22.634Z - normal: Check project /Users/mac/MatchVsIPTV/matchvsTvFramework
+2018-09-30T06:23:22.636Z - normal: Initializing Cocos2d
+2018-09-30T06:23:22.910Z - normal: Initializing Asset Database
+2018-09-30T06:23:22.948Z - success: protocol uuid registerred
+2018-09-30T06:23:22.949Z - success: protocol db registerred
+2018-09-30T06:23:22.949Z - success: protocol thumbnail registerred
+2018-09-30T06:23:22.949Z - normal: Loading editor/builtin packages
+2018-09-30T06:23:22.970Z - success: anysdk loaded
+2018-09-30T06:23:23.090Z - success: assets loaded
+2018-09-30T06:23:23.094Z - success: builder loaded
+2018-09-30T06:23:23.096Z - success: cocos-analytics loaded
+2018-09-30T06:23:23.100Z - success: console loaded
+2018-09-30T06:23:23.134Z - success: fb-instant-games loaded
+2018-09-30T06:23:23.139Z - success: hierarchy loaded
+2018-09-30T06:23:23.144Z - success: inspector loaded
+2018-09-30T06:23:23.146Z - success: keystore loaded
+2018-09-30T06:23:23.154Z - success: node-library loaded
+2018-09-30T06:23:23.156Z - success: package-asset loaded
+2018-09-30T06:23:23.158Z - success: preferences loaded
+2018-09-30T06:23:23.161Z - success: project-exporter loaded
+2018-09-30T06:23:23.177Z - success: project-importer loaded
+2018-09-30T06:23:23.180Z - success: project-settings loaded
+2018-09-30T06:23:23.186Z - success: ui-kit loaded
+2018-09-30T06:23:23.191Z - success: ui-grid loaded
+2018-09-30T06:23:23.195Z - success: scene loaded
+2018-09-30T06:23:23.197Z - success: sprite-editor loaded
+2018-09-30T06:23:23.201Z - success: store loaded
+2018-09-30T06:23:23.207Z - success: timeline loaded
+2018-09-30T06:23:23.208Z - normal: Loading builtin packages
+2018-09-30T06:23:23.212Z - success: asset-db-debugger loaded
+2018-09-30T06:23:23.213Z - success: color-picker loaded
+2018-09-30T06:23:23.217Z - success: package-manager loaded
+2018-09-30T06:23:23.218Z - success: qqplay-adapter loaded
+2018-09-30T06:23:23.285Z - success: sdkbox loaded
+2018-09-30T06:23:23.291Z - success: tester loaded
+2018-09-30T06:23:23.297Z - success: ui-kit-preview-extra loaded
+2018-09-30T06:23:23.301Z - success: ui-kit-preview loaded
+2018-09-30T06:23:23.305Z - success: ui-tree loaded
+2018-09-30T06:23:23.306Z - success: weapp-adapter loaded
+2018-09-30T06:23:24.278Z - normal: Initializing project /Users/mac/MatchVsIPTV/matchvsTvFramework
+2018-09-30T06:23:24.282Z - normal: Loading packages
+2018-09-30T06:23:24.295Z - success: plugin-matchvs loaded
+2018-09-30T06:23:24.295Z - normal: Watching packages
+2018-09-30T06:23:24.434Z - normal: Run Application
+2018-09-30T06:23:25.281Z - success: preview server running at http://localhost:7458

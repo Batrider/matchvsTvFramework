@@ -3,6 +3,7 @@ cc.Class({
 
     properties: {
         rankSps: [cc.SpriteFrame],
+        rankBgs: [cc.SpriteFrame],
         rankCntLb: cc.Label,
         rankSprite: cc.Sprite,
         userNameLb: cc.Label,
@@ -15,6 +16,7 @@ cc.Class({
             if (data.rank < 4) {
                 this.rankCntLb.string = "";
                 this.rankSprite.spriteFrame = this.rankSps[data.rank - 1];
+                this.node.getComponent(cc.Sprite).spriteFrame = this.rankBgs[data.rank - 1];
             } else {
                 this.rankCntLb.string = data.rank;
             }

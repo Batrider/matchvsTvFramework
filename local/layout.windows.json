@@ -5,8 +5,8 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 74,
-      "y": 23,
+      "x": 977,
+      "y": 31,
       "width": 1846,
       "height": 1057,
       "layout": {
@@ -45,7 +45,7 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 697,
+                    "height": 474,
                     "type": "panel",
                     "width": 801
                   },
@@ -54,22 +54,22 @@
                     "children": [
                       "node-library"
                     ],
-                    "height": 697,
+                    "height": 474,
                     "type": "panel",
                     "width": 295
                   }
                 ],
-                "height": 697,
+                "height": 474,
                 "type": "dock-h",
                 "width": 1099
               },
               {
-                "active": 1,
+                "active": 0,
                 "children": [
                   "console",
                   "timeline"
                 ],
-                "height": 266,
+                "height": 489,
                 "type": "panel",
                 "width": 1099
               }
@@ -100,6 +100,32 @@
         "hierarchy",
         "assets",
         "scene"
+      ]
+    },
+    "window-1538289163726": {
+      "main": false,
+      "url": "unpack://static/window.html",
+      "windowType": "dockable",
+      "x": 396,
+      "y": 246,
+      "width": 404,
+      "height": 528,
+      "layout": {
+        "children": [
+          {
+            "active": 0,
+            "children": [
+              "package-asset.export"
+            ],
+            "height": 506,
+            "type": "panel",
+            "width": 404
+          }
+        ],
+        "type": "dock-v"
+      },
+      "panels": [
+        "package-asset.export"
       ]
     }
   },
@@ -141,8 +167,8 @@
       "height": 558
     },
     "package-asset.export": {
-      "x": 180,
-      "y": 153,
+      "x": 396,
+      "y": 246,
       "width": 404,
       "height": 528
     },
